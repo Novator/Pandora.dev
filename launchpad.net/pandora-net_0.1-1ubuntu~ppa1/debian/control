@@ -1,0 +1,17 @@
+Source: pandora-net
+Section: ruby
+Priority: optional
+Maintainer: Michael Galyuk <robux@mail.ru>
+Build-Depends: debhelper (>= 7)
+Homepage: http://robux.biz/pandora.html
+
+Package: pandora-net
+Architecture: all
+Section: net
+Depends: ruby (>= 1.9), ruby-sqlite3, ruby-gtk2, ruby-gstreamer, openssl
+Recommends: gstreamer0.10-ffmpeg, gstreamer0.10-x, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad
+Description: GUI client of P2P information system
+ Pandora is a free multiplatform distributed p2p (peer-to-peer) information system.
+ Pandora includes functions of social network, instant messanger, audio and
+ video chat, commercial system, distributed development system, file exchange and vote system.
+ Pandora has its own binary protocol and uses cryptography and trust networks.

@@ -1,0 +1,19 @@
+[ppa]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~pandora-net/ppa/ubuntu/
+login = anonymous
+allow_unsigned_uploads = 0
+
+[ppa.galyuk]
+fqdn = ppa.launchpad.net
+method = ftp
+incoming = ~pandora-net/ppa/ubuntu/
+login = galyuk
+
+[ppa.galyuk.sec]
+fqdn = ppa.launchpad.net
+method = sftp
+incoming = ~pandora-net/ppa/ubuntu/
+login = galyuk
+
