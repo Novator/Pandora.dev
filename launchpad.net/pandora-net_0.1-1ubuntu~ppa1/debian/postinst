@@ -5,8 +5,8 @@ set -e
     case "$1" in
       configure)
         touch /opt/pandora/base/pandora.sqlite
-        echo "Setting rights a+rw to /opt/pandora/base ..." >&2
-        chmod -R a+rw /opt/pandora/base
+        echo "Setting rights a+rw to /opt/pandora ..." >&2
+        chmod -R a+rw /opt/pandora
         ;;
       abort-upgrade|abort-remove|abort-deconfigure)
         ;;

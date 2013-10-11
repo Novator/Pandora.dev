@@ -6,7 +6,7 @@
 # http://askubuntu.com/questions/90764/how-do-i-create-a-deb-package-for-a-single-python-script
 # http://help.ubuntu.ru/wiki/%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5_ppa
 
-cd ./pandora-net_0.1-1ubuntu~ppa1
+cd ./pandora-net_0.1-5ubuntu~ppa5
 
 cp -f ../../GitHub/Pandora/* ./pandora
 cp -rf ../../GitHub/Pandora/base ./pandora

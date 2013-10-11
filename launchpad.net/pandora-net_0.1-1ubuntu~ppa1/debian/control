@@ -1,6 +1,6 @@
 Source: pandora-net
-Section: ruby
 Priority: optional
+Section: net
 Maintainer: Michael Galyuk <robux@mail.ru>
 Build-Depends: debhelper (>= 7)
 Homepage: http://robux.biz/pandora.html
@@ -8,8 +8,9 @@ Homepage: http://robux.biz/pandora.html
 Package: pandora-net
 Architecture: all
 Section: net
-Depends: ruby (>= 1.9), ruby-sqlite3, ruby-gtk2, ruby-gstreamer, openssl
-Recommends: gstreamer0.10-ffmpeg, gstreamer0.10-x, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad
+Depends:  ruby2.0 | ruby1.9.3 | ruby1.9.1 | ruby1.9 | ruby (>= 1.9), ruby-sqlite3, ruby-gtk2, ruby-gstreamer, openssl
+Suggests: gstreamer0.10-x, gstreamer0.10-alsa | gstreamer0.10-pulse, gstreamer0.10-ffmpeg, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad
+Recommends: gstreamer0.10-x, gstreamer0.10-alsa | gstreamer0.10-pulse, gstreamer0.10-ffmpeg, gstreamer0.10-plugins-good, gstreamer0.10-plugins-bad
 Description: P2P social network Pandora (Gtk client)
  Pandora is a free multiplatform distributed p2p (peer-to-peer) information system.
  Pandora includes functions of social network, instant messanger, audio and
