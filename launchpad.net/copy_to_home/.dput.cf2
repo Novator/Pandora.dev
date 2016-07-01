@@ -1,0 +1,6 @@
+[ppa.pandora]
+fqdn = ppa.launchpad.net
+method = sftp
+incoming = ~pandora-net/ppa/ubuntu/
+login = galyuk
+

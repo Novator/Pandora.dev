@@ -1,3 +1,3 @@
-Put here file from:
+Put here files from:
 https://github.com/Novator/Pandora
 
