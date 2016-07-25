@@ -1,3 +1,10 @@
+pandora-net (0.6-1ubuntu) precise; urgency=low
+
+  * Alfa version 10.
+
+ -- Michael Galyuk <robux@mail.ru>  Sat, 24 Jul 2016 11:05:17 +0500
+
+
 pandora-net (0.2-2ubuntu) precise; urgency=low
 
   * Alfa version 9.

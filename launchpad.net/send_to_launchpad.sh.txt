@@ -1,0 +1,8 @@
+
+После залива на ланчпад нужно зайти на страницу (с именем "galyuk"):
+https://launchpad.net/~pandora-net/+archive/ubuntu/ppa/+copy-packages
+
+пометить галочкой новый "Source", внизу в поле "Destination series"
+выбрать куда копировать (по очереди в каждый релиз Lucid, Utopi, Vivid, Trusty, Wily, Xenian,
+Yakkety) в режиме "Copy existing binaries".
+
